@@ -3,5 +3,6 @@ using Tictacoe;
 
 Console.WriteLine("Hello, World!");
 Ttictactoe game = new Ttictactoe();
-game.CreateBoard();
+char[] board = game.CreateBoard();
 game.Letter();
+game.ViewBoard(board);
