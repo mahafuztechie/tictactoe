@@ -11,7 +11,7 @@ namespace Tictacoe
         public char[] CreateBoard()
         {
             char[] board = new char[10];
-            for(int i = 0; i<board.Length; i++)
+            for(int i = 1; i<board.Length; i++)
             {
                 board[i] = ' ';
             }
