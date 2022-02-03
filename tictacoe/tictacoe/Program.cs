@@ -4,3 +4,4 @@ using Tictacoe;
 Console.WriteLine("Hello, World!");
 Ttictactoe game = new Ttictactoe();
 game.CreateBoard();
+game.Letter();
